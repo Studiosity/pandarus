@@ -95,7 +95,7 @@ module Pandarus
     end
 
     def escape_string(string)
-      URI.encode(string.to_s)
+      URI.encode_www_form_component(string.to_s)
     end
 
     # Convert something like user__name__ to user[name]
