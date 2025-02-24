@@ -18923,8 +18923,8 @@ module Pandarus
         :sort,
         :order,
         :search_term,
-        :published
-
+        :published,
+        :include
       ]
 
       form_param_keys = [
