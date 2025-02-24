@@ -1681,8 +1681,8 @@ module Pandarus
         :context_codes,
         :start_date,
         :end_date,
-        :active_only
-
+        :active_only,
+        :include
       ]
 
       form_param_keys = [
