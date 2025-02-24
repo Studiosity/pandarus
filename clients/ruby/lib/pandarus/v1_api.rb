@@ -16165,8 +16165,8 @@ module Pandarus
       query_param_keys = [
         :include,
         :search_term,
-        :student_id
-
+        :student_id,
+        :include
       ]
 
       form_param_keys = [
