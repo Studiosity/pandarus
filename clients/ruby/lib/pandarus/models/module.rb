@@ -18,7 +18,6 @@ module Pandarus
     attribute :state, resolve_type("String")
     attribute :completed_at, resolve_type("DateTime")
     attribute :publish_final_grade, resolve_type(nil)
-    
+    attribute :published, resolve_type(nil)
   end
 end
-

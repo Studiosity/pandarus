@@ -1681,8 +1681,8 @@ module Pandarus
         :context_codes,
         :start_date,
         :end_date,
-        :active_only
-
+        :active_only,
+        :include
       ]
 
       form_param_keys = [
@@ -16165,8 +16165,8 @@ module Pandarus
       query_param_keys = [
         :include,
         :search_term,
-        :student_id
-
+        :student_id,
+        :include
       ]
 
       form_param_keys = [
@@ -18923,8 +18923,8 @@ module Pandarus
         :sort,
         :order,
         :search_term,
-        :published
-
+        :published,
+        :include
       ]
 
       form_param_keys = [
